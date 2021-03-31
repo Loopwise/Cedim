@@ -189,4 +189,20 @@ int main(){
     miBooleano=10<1;
     miBooleano=10==10;
     miBooleano=10!=6;
+    
+    
+    //------------------ std::cin
+    // utilizaremos el objeto cin para almacenar los datos introducidos en la interaccion maquina-usuario.
+    //antes de solicitar datos al usuario, debemos declarar dónde se guardarán esos datos.
+    // por lo tanto es muy importante definir el tipo de objeto que pediremos al usuario (entero, booleano, caracter)
+    int datoEntero;
+    std::cout<<"Primero pediremos ingresar un entero:"<<std::endl;
+    std::cin>>datoEntero;
+    bool datoBooleano;
+    std::cout<<"Segundo, ingrese un dato booleano(1 o 0)"<<std::endl;
+    std::cin>>datoBooleano;
+    char datoCaracter;
+    std::cout<<"Por ultimo, ingrese un dato caracter(a,b,c,...,A,B,C,...)"<<std::endl;
+    std::cin>>datoCaracter;
+    std::cout<<"Los datos ingresados son: "<<datoEntero<<"\t"<<datoBooleano<<"\t"<<datoCaracter<<std::endl;
 }
