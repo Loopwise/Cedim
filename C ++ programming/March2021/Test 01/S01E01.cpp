@@ -173,6 +173,10 @@ int main(){
     // true || false=true
     // !true=false
     
+    
+    bool miBool;
+    miBool=true&&true;
+    miBool=!false;
     //-------------------operadores relaciones
     //retornan valores booleanos (true o false)
     // <,>,<=,>=,==, !=
@@ -181,5 +185,8 @@ int main(){
     // 10<1 : retorna un valor de false
     // 10==10: retorna un valor de true, este operador es de comparar si son igualdad
     // 10!=6: retorna un valor de true, este operador es comparar si son diferentes
-    
+    bool miBooleano;
+    miBooleano=10<1;
+    miBooleano=10==10;
+    miBooleano=10!=6;
 }
