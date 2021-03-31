@@ -27,7 +27,7 @@ int main(){
     
     // los literales de cadena son los mensajes que mandamos a imprimir con el objeto cout
     std::cout<<"Este es un literal de cadena "<<std::endl;
-    sdt::cout<<"Este es otra forma"<<" de imprimir literales de cadena"<<" esto es correcto"<<std::endl;
+    std::cout<<"Este es otra forma"<<" de imprimir literales de cadena"<<" esto es correcto"<<std::endl;
     std::cout<<"Otra forma"" de asociar literales de cadena" ", no produce error"<<std::endl;
     
     
