@@ -1,5 +1,7 @@
 #include <iostream>
 //incluimos la bibliotema iostream ="istream"+"ostream"
+//bibliotecas, librerias: extraccion de codigo externo.
+//las bibliotecas son colecciones de codigo utiles que puede importar a sus programas para evitar tener que "reinventar la rueda"
 int main(){
     //Un programa de C ++ debe tener una única función global llamada main ().
     // El programa comienza ejecutando main (). El tipo de retorno de main () es int
@@ -63,6 +65,5 @@ int main(){
     int n1=12;
     int n2,n3;
     n2=n3=n1;
-
 
 }
