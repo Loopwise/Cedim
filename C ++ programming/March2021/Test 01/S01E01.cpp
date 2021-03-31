@@ -75,6 +75,11 @@ int main(){
     std::cout<<"Modificando el formato de los flotantes\n";
     std::cout<<std::defaultfloat<<v8<<" <-> "<<std::fixed<<v8<<" <-> "<<std::scientific<<v8<<"\n";
     
+    //Otra "forma" de inicializar nuestras variables
+    //a partir del estandar C++11 podemos inicializar nuestras variables (tienen solo 1 valor) de la sig manera:
+    int enteroEstandar11{123};
+    bool doubleEstandar11{3.14};
+    
     
     //---------------------------------Caracteres especiales o literales
     //nueva linea                   \n
