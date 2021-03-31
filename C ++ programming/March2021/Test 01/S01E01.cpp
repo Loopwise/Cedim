@@ -75,10 +75,20 @@ int main(){
     std::cout<<"Modificando el formato de los flotantes\n";
     std::cout<<std::defaultfloat<<v8<<" <-> "<<std::fixed<<v8<<" <-> "<<std::scientific<<v8<<"\n";
     
+    //---------------------Boleanos
+    bool bandera1=5>7;
+    std::cout<<"\t\tBooleanos"<<std::endl;
+    std::cout<<bandera1<<"\n";
+
+    //deduccion del tipo de dato de manera automatica. estandar C++11
+    // podemos anteponer a nuestra variable la palabra reservadoa auto para que al inicializar se deduzca que tipo de dato sera
+    auto miChar='A';
+    auto miEntero=123;
+    auto miDouble=456.135;
     //Otra "forma" de inicializar nuestras variables
     //a partir del estandar C++11 podemos inicializar nuestras variables (tienen solo 1 valor) de la sig manera:
     int enteroEstandar11{123};
-    bool doubleEstandar11{3.14};
+    double doubleEstandar11{3.14};
     
     
     //---------------------------------Caracteres especiales o literales
@@ -99,11 +109,7 @@ int main(){
     // los caracteres especiales pueden aparecer en las cadenas literales
 
 
-    //---------------------Boleanos
-    bool bandera1=5>7;
-    std::cout<<"\t\tBooleanos"<<std::endl;
-    std::cout<<bandera1<<"\n";
-
+    
     
     //---------------operaciones entre literales
     //literales: son los valores que asignamos a las variables
