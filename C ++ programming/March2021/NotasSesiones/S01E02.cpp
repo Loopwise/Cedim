@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
-/**
+/*
 *Informe sobre el tamaño de los diversos tipos de datos de C ++.
-*
 * Otorga diferentes resultados, dependiendo de la maquina
 *
 */
@@ -30,4 +29,3 @@ int main() {
          << " bytes" << endl;
     return 0;
 }
-
